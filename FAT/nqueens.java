@@ -17,6 +17,7 @@ class nqueens {
 
     public static boolean place(char[][] board, int col, int n) {
         if (col == n) {
+            //print
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
                     System.out.print(board[i][j] + " ");

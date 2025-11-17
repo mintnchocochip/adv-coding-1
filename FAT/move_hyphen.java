@@ -10,11 +10,11 @@ class move_hyphen {
 
         for (char c : arr) {
             if (c == '-') {
-                hy.append(c);
+                result.insert(0, c);
             } else {
                 result.append(c);
             }
         }
-        System.out.println(hy.append(result.toString()).toString());
+        System.out.println(result.toString());
     }
 }

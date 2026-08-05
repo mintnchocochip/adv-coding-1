@@ -16,7 +16,9 @@ public class lexo_first {
             if (map.get(i) % 2 != 0) {
                 count++;
                 if (count > 1) {
-                    System.out.println("Poda venna");
+                    System.out.println(
+                        "Poda venna:: thappa irukku da intha string"
+                    );
                     return;
                 }
             }

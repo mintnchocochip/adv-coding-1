@@ -6,8 +6,6 @@ class move_hyphen {
         String str = "I - love--Java";
         char[] arr = str.toCharArray();
         StringBuilder result = new StringBuilder();
-        StringBuilder hy = new StringBuilder();
-
         for (char c : arr) {
             if (c == '-') {
                 result.insert(0, c);
